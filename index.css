@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+body{
+	background: red;
+}
+
+#app{
+	width: 80%;
+	margin:10px auto;
+	text-align: center;
+}
+
+h2, h4, h6{
+	font-family: Arial, 'Fire Code', Arial Black;
+	margin: 10px;
+	color: white;
+	padding: 10px;
+	border: dashed blue 1px;
+}

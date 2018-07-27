@@ -9,9 +9,11 @@ body{
 }
 
 #app{
+	top: 30%;
+	left: 10%;
 	width: 80%;
-	margin:10px auto;
 	text-align: center;
+	position: absolute;
 }
 
 h2, h4, h6{
@@ -19,5 +21,31 @@ h2, h4, h6{
 	margin: 10px;
 	color: white;
 	padding: 10px;
-	border: dashed blue 1px;
+	border: dashed blue 3px;
+}
+
+@media screen and (max-width: 1024px ){
+	body{
+		background: blue;
+	}
+	h2, h4, h6{
+		border-color: white;
+	}
+}
+
+@media screen and (max-width: 768px ){
+	body{
+		background: purple;
+	}
+}
+
+
+@media screen and (max-width: 480px ){
+	body{
+		background: pink;
+	}
+
+	#app {
+		width: 100%;
+	}
 }
